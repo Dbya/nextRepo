@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from '../home/Home'
-import About from '../about/About';
+
 import Service from '../service/Service';
 import Contact from '../contact/Contact';
 // import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -19,7 +19,7 @@ const Total = () => {
      <Routes>
      
          <Route exact path='/home' element={<Home />} /> 
-         <Route exact path='/about' element={<About />} /> 
+         
          <Route exact path='/service' element={<Service />} /> 
          <Route exact path='/contact' element={<Contact />} /> 
         
