@@ -1,0 +1,21 @@
+.btn-get-started{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: rgb(152, 119, 183);
+    border: 1.5px solid rgb(137, 88, 183);
+    text-decoration: none;
+
+}
+.btn-get-started:hover{
+    background-color: rgb(140, 120, 159);
+    color: rgb(242, 242, 240);
+}
+.health h2{
+    color: rgb(55, 16, 147);
+
+}

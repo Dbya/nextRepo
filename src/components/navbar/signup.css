@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    outline:none;
+}
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(105, 164, 204); */
+    /* background-color: #698ac8; */
+}
+.box{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(218, 215, 211, 0.84);
+   
+    position: relative;
+    overflow: hidden;
+    border-radius:5%;
+
+}
+.signUp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    /* background-color: hotpink; */
+    padding: 0px 20px;
+    
+
+}
+.login{
+    position: absolute;
+    bottom: 0;
+    left:101%;
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(105, 99, 102); */
+    padding: 0px 20px;
+}
+.input-group{
+    margin-top:8px;
+}
+.input-group label{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(14, 8, 93);
+}
+.input-group .inp{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius:100px;
+    /* border-radius: 20 20 20 20; */
+    border: 1px solid rgba(44, 10, 168, 0.801);
+    margin-top:5px;
+   
+    
+
+}
+.input-group .inpp{
+    border-radius: 10px 10px;
+}
+
+.sub-inp{
+    background:linear-gradient(30deg ,rgb(0, 255, 255),blue);
+    border: none !important;
+    color: ivory;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.toggle{
+    -webkit-appearance: none;
+    width: 50%;
+    height: 40px;
+    border: 1px solid green;
+    position: absolute;
+    top:30px ;
+    left: calc(50% - 25%);
+    border-radius: 100px;
+
+}
+.toggle:before{
+    content: "Sign Up ";
+    color: honeydew;
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(30deg ,red,blue);
+    border-radius: 100px;
+    display: grid;
+    place-items:center;
+    transition:0.5s;
+
+}
+.toggle:checked:before{
+    content: "Login";
+    left: 50%;
+}
+.toggle:checked + .signUp{
+    left: -101%;
+}
+.toggle:checked + .signUp + .login{
+    left: 0%;
+}

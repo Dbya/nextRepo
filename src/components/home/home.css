@@ -1,0 +1,50 @@
+#header{
+    width: 100%;
+
+    /* margin-top: 70px; */
+}
+section{
+    margin-top: 80px;
+}
+
+
+/* #header h3{
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+#header h5{
+    font-size: 20px;
+    color: brown;
+} */
+#header .btn-get-started{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: rgb(152, 119, 183);
+    border: 1.5px solid rgb(137, 88, 183);
+    text-decoration: none;
+
+}
+#header .btn-get-started:hover{
+    background-color: rgb(140, 120, 159);
+    color: rgb(242, 242, 240);
+}
+.header-img{
+    margin-top: 40vh;
+    object-fit:contain;
+}
+img{
+    height: 70vh;
+    width: 70vw;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

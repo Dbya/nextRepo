@@ -1,0 +1,28 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(8, 193, 193) !important;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 4rem !important;
+    color: rgb(23, 14, 103) !important;
+}
+
+.navbar a{
+    font-size: 1.4rem !important;
+    text-transform: capitalize;
+
+}
+.menu_item{
+    font-weight: bold;
+    border-bottom: 2rem solid rgb(14, 147, 52);
+}
+.navbar a:hover{
+    color: rgb(113, 11, 11) !important;
+
+}
+ 
+
