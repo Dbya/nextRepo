@@ -3,7 +3,7 @@ import './App.css';
 
 import Total from './components/total/Total';
 import { BrowserRouter } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
